@@ -35,14 +35,14 @@ exports.handler = async function http(req) {
 
 // Other example responses
 
-/* Forward requester to a new path
+/* Forward requester to a new path*/
 exports.handler = async function http (req) {
   return {
     statusCode: 302,
     headers: {'location': '/about'}
   }
 }
-*/
+
 
 /* Respond with successful resource creation, CORS enabled
 let arc = require('@architect/functions')
